@@ -1,4 +1,4 @@
-#include
+#include <stdio.h>
 int main (){
 int n;
 printf("Ingrese un n: ");
@@ -12,10 +12,13 @@ printf("\n");
 
 }
 int a = n;
-for (int j=0; j for(int i = 1 ; i <= a ; i++){
-printf("%d ",i);
-}
-a--;
+for (int j=0; j < a;++j){
+    
+
+    for(int i = 1 ; i <= a ; i++){
+        printf("%d ",i);
+    }
+    a--;
 printf("\n");
 }
 
