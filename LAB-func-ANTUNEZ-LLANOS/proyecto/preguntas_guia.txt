@@ -1,0 +1,13 @@
+1. ¿Qué contiene el .h y qué no debe contener?
+-El .h contiene los prototipos de las funciones que están en el raiz_digital.c, lo cual sirve para poder llamar a estas funciones que se utilizan en main, así conectando archivos en el proyecto.
+Este .h no debe contener el código de implementación ni definiciones que se repita en otros archivos
+
+2. ¿Por qué el .h no debe tener definiciones de funciones (salvo static inline en casos avanzados)?
+-Es para evitar el error de definición múltiple,(que en si solo se permite definir una variable una vez pero llamarla varias veces), cuando entra a la etapa de enlazado, donde conecta main.c , reaiz_digital.c , etc, y que ocurra un error:
+
+3. ¿Para qué sirven las directivas (#ifndef/#define/#endif)? Probar incluir el mismo .h dos veces en main.c y ver qué pasa con y sin guardas.
+-Sirve para identificar si una macro a sido definida antes en el código.
+
+4. ¿Por qué main.c solo necesita incluir raiz_digital.h y no raiz_digital.c
+-Porque el .h conecta a estos dos archivos tipo c, permitiendo que compartan información y así no repetir código y dar mas orden.
+
