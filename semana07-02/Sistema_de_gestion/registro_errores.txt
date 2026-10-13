@@ -1,0 +1,5 @@
+=== INICIO DEL LOG DE SISTEMA ===
+[2026-10-13 17:33:29] [INFO] El sistema ha iniciado correctamente en el puerto 8080.
+[2026-10-13 17:33:29] [WARNING] Intento de acceso no autorizado detectado. Usuario: 'AdminJuan'.
+[2026-10-13 17:33:29] [ERROR] Fallo de conexion a la Base de Datos. Codigo de error MySQL: 1045.
+[2026-10-13 17:33:29] [CRITICAL] Sobrecalentamiento del CPU detectado: 98.5 C. Forzando apagado de seguridad.
