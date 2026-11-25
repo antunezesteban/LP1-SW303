@@ -1,0 +1,7 @@
+001,Juan,18
+002,Luis,12
+003,Lock,26
+04,esteban,39
+04,maria,19
+04,josefa,25
+007,James,18007,Bond,81
